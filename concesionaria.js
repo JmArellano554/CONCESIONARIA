@@ -93,13 +93,13 @@ totalDeVentas:  function(){
       }
       ,
       autosQuePuedeComprar: function(persona){
-  let puede =[]
-  this.autosParaLaVenta().forEach(function(auto){
-   let puedeComprar =concesionaria.puedeComprar(auto,persona)
-   if (puedecomprarComprar){
-   puede.push(auto)
-      }
-       })
-     return puede
-        }
-     }
+         let puede =[]
+         this.autosParaLaVenta().forEach(function(auto){
+          let pComprar =concesionaria.puedeComprar(auto,persona)
+          if (pComprar){
+          puede.push(auto)
+             }
+              })
+            return puede
+               }
+            }
